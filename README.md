@@ -25,3 +25,9 @@ How to run the test:
 5. To run test script on Electron browser in headless mode, run the following command-
 
     npm run cy:run
+
+6. To generate HTML report, run the below command-
+    
+    npm run report:generate
+    
+    The report will be generated inside cypress/reports/mochawesome.html
