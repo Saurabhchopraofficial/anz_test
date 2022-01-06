@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "cy:open": "cypress open",
     "cy:run:chrome": "cypress run --browser chrome",
-    "cy:run": "cypress run --spec cypress/integration/shopping_cart.js"
+    "cy:run": "cypress run --spec cypress/integration/shopping_test.js"
   },
   "keywords": [],
   "author": "",

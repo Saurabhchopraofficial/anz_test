@@ -7,6 +7,7 @@ Node.js should be installed on local machine.
 How to run the test:
 
 1. Clone the project to your local machine.
+
 2. Run the following command on terminal in VS Code (or any code editor) to install dependencies, including Cypress:
     npm install
     
