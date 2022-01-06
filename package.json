@@ -7,12 +7,20 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "cy:open": "cypress open",
     "cy:run:chrome": "cypress run --browser chrome",
-    "cy:run": "cypress run --spec cypress/integration/shopping_test.js"
+    "cy:run": "cypress run --spec cypress/integration/shopping_test.js",
+    "report": "npm run report:merge && npm run report:generate",
+    "report:merge": "mochawesome-merge cypress/results/json/mochawesome*.json > cypress/results/mochawesome-bundle.json",
+    "report:generate": "marge cypress/results/mochawesome-bundle.json -o cypress/reports/html"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^9.2.0"
+    "cypress": "^9.2.0",
+    "cypress-multi-reporters": "^1.5.0",
+    "mocha": "^9.1.3",
+    "mochawesome": "^7.0.1",
+    "mochawesome-merge": "^4.2.1",
+    "mochawesome-report-generator": "^6.0.1"
   }
 }
