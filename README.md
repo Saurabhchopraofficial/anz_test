@@ -17,7 +17,7 @@ How to run the test:
 4. On the Cypress UI, click the test you need to run (e.g in this case Shopping Cart)-
     shopping_test.js
     
-5. To run test script in headless mode on Chrome, run the following command-
+5. To run test script on Chrome in headless mode, run the following command-
 
     npm run cy:run:chrome
     
