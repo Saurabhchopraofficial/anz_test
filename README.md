@@ -16,7 +16,7 @@ How to run the test:
 
     npm run cy:open
     
-    On the Cypress UI, click the test you need to run (e.g in this case, shopping_test.js)
+    On the Cypress UI, click the test you need to run (e.g in this case, shopping_test.js). You can also select the browser from the list of supported browsers.
     
 4. To run test script on Chrome in headless mode, run the following command-
 
