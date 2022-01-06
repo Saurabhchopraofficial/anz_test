@@ -28,6 +28,6 @@ How to run the test:
 
 6. To generate HTML report, run the below command-
     
-    npm run report:generate
+    npm run report
     
-    The report will be generated inside cypress/reports/mochawesome.html
+    An HTML report will be generated inside cypress/reports/html folder
