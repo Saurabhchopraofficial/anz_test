@@ -1,0 +1,15 @@
+{
+    "fName" : "Kurt",
+    "lName" : "Cobain",
+    "password" : "anztesting",
+    "company" : "ANZ",
+    "address1" : "206 GH-17",
+    "address2" : "MDC-5",
+    "city" : "Los Angeles",
+    "stateId" : "California",
+    "postCode" : "87879",
+    "phone" : "+1-34567890",
+    "alias" : "Home Address",
+    "productName" : "Faded Short Sleeve T-shirts",
+    "shippingInstructions" : "This is a gift"
+  }
