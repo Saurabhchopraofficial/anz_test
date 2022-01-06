@@ -8,7 +8,8 @@ How to run the test:
 
 1. Clone the project to your local machine.
 
-2. Run the following command on terminal in VS Code (or any code editor) to install dependencies, including Cypress:
+2. Run the following command to install dependencies (including Cypress):
+    
     npm install
     
 3. To run the test in UI mode, run the following command-
