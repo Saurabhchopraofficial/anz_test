@@ -32,6 +32,11 @@ export default {
     productList : 'ul#homefeatured',
     addToCart : '#add_to_cart',
     cartSubmit : 'button.exclusive[type="submit"]',
-    checkOut : 'a[title="Proceed to checkout"]'
-
+    checkOut : 'a[title="Proceed to checkout"]',
+    proceedCheckOut : 'a.standard-checkout > span',
+    orderText : '#ordermsg > textarea',
+    addressBtn : 'button[name="processAddress"]',
+    shipCheck : '#cgv',
+    carrier : 'button[name="processCarrier"]',
+    productInCart : 'tr.cart_item > td.cart_description .product-name'
 }

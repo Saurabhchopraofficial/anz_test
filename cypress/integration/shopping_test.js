@@ -85,16 +85,16 @@ describe('Shopping on Automation Practice Website', () => {
 
   it('Validate product details on payment page', () => {
     //Proceed with checkout
-    cy.get('a.standard-checkout > span').should('be.visible')
+    cy.get(selectors.proceedCheckOut).should('be.visible')
       .click();
     //Address section
-    cy.get('#ordermsg > textarea').clear().type(data.shippingInstructions);
-    cy.get('button[name="processAddress"]').click();
+    cy.get(selectors.orderText).clear().type(data.shippingInstructions);
+    cy.get(selectors.addressBtn).click();
     //Shipping information section
-    cy.get('#cgv').check();
-    cy.get('button[name="processCarrier"]').click();
+    cy.get(selectors.shipCheck).check();
+    cy.get(selectors.carrier).click();
     //Validate the correct product got added to the cart
-    cy.get('tr.cart_item > td.cart_description .product-name').should('have.text', data.productName);
+    cy.get(selectors.productInCart).should('have.text', data.productName);
   })
 
 })
